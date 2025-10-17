@@ -1,0 +1,256 @@
+.css-akwf-wkg-ewg {
+	margin-top: 20px;
+	border-radius: 10px;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	background: #3BB77E;
+	padding: 10px;
+}
+
+.css-kw-fw03g-w p {
+	color: white;
+	text-align: center;
+}
+
+.bold {
+	font-weight: bolder;
+}
+
+.css-awkf-gkw3 {
+	/* background: #e3faff; */
+	border: 2px dotted #2196F3;
+	width: fit-content;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	gap: 5px;
+	border-radius: 10px;
+	padding: 5px 15px;
+	margin-bottom: 10px;
+}
+
+.css-awkf-gkw3 p {
+	color: #2196F3;
+	font-size: 14px;
+}
+
+.css-kwf-kwg--32 {
+	width: 100%;
+	background: #00994F;
+	padding: 10px 10px;
+	border-radius: 20px;
+	border: none;
+	margin-top: 20px;
+	font-size: 16px;
+	color: white;
+	font-weight: bolder;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	gap: 10px;
+}
+
+.text-black {
+	color: black;
+}
+
+.sticky-element {
+	position: sticky;
+	top: 0;
+	left: 0;
+	/* width: 100%; */
+	background: white;
+	z-index: 1000;
+	/* pastikan tampil di atas elemen lain */
+}
+
+.css-wkf-weg-wg4 {
+	/* margin-top: 30px; */
+	/* border: 1px solid rgb(205, 205, 205);
+	padding: 10px; */
+	gap: 10px;
+	display: flex;
+	justify-content: flex-start;
+	align-items: center;
+	flex-direction: column;
+}
+
+.css-awf-w-32g-2 {
+	width: 100%;
+	height: 400px;
+	border-radius: 10px;
+}
+
+.single-hero-slider {
+	position: relative;
+	background-size: cover;
+	background-position: center;
+	color: white;
+	/* agar teks kontras */
+}
+
+.single-hero-slider::before {
+	content: "";
+	position: absolute;
+	inset: 0;
+	/* menutupi seluruh area */
+
+	/* ubah opacity sesuai kebutuhan */
+	z-index: 1;
+}
+
+.single-hero-slider-transparant::before {
+	background-color: rgba(0, 0, 0, 0.6);
+}
+
+.css-akf-gk-w3egw {
+	width: 100%;
+	height: 200px;
+	border-radius: 14px;
+}
+
+.single-hero-slider>* {
+	position: relative;
+	z-index: 2;
+	/* teks di atas overlay */
+}
+
+.css-awkfw-gew {
+	width: fit-content;
+	margin-top: 10px;
+	background: #F7F8FA;
+	padding: 10px 10px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	gap: 20px;
+	border-radius: 10px;
+}
+
+.css-owf--wegk--2g-w3 {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	gap: 10px;
+}
+
+.css-awkf-wfkw3t3-3:hover {
+	background: #3BB77E;
+}
+
+.css-awkf-wfkw3t3-3 {
+	padding: 20px;
+	background: #F7F8FA;
+	margin-bottom: 10px;
+	border-radius: 10px;
+}
+
+.css-wfk-w-kw-3g3 {
+	display: flex;
+	justify-content: flex-start;
+	align-items: center;
+	font-size: 17px;
+	height: 30px;
+
+	gap: 10px;
+}
+
+.css-wfk-w-kw-3g3 p {
+	color: black;
+}
+
+.css-awf-kw-g3g {
+	border-radius: 20px;
+}
+
+.css-a-fw-gw-g23 {
+	width: 100%;
+	background: black;
+}
+
+.css-akg-w3gk-wg {
+	height: 810px;
+}
+
+.css-awkf-wkgwe3 {
+	font-size: 30px !important;
+}
+
+.css-kwf-kwg-32g32 {
+	width: 100%;
+}
+
+.css-kawf-wkg-w3-g {
+	border: 2px dotted #3BB77E;
+	/* margin: 20px; */
+	padding: 20px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	width: 300px;
+	height: 150px;
+	border-radius: 20px;
+	margin-top: 20px;
+}
+
+.css-wakf-wk-w3gk--3wg {
+	display: flex;
+	justify-content: center;
+	gap: 10px;
+	align-items: flex-start;
+}
+
+.css-kwf--wkg-32w {
+	width: 20px;
+}
+
+.css--fw-gk-w3k-g3wg {
+	font-size: 40px !important;
+	font-weight: bolder;
+	color: black;
+}
+
+.animate {
+	animation: 2s infinite shimmer;
+	background: linear-gradient(to right, #eff1f3 4%, #e2e2e2 25%, #eff1f3 36%);
+	background-size: 1000px 100%;
+}
+
+@keyframes shimmer {
+	0% {
+		background-position: -1000px 0;
+	}
+
+	100% {
+		background-position: 1000px 0;
+	}
+}
+
+.css--wfk-gkwg3we {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	border-radius: 10% !important;
+}
+
+.css-kf-kg-w3-gk2w {
+	height: 240px;
+}
+
+.cssa-w0ewgk0we03g {
+	height: 70px;
+	width: 100%;
+}
+
+.css-ak-gwkg-w3g3 {
+	height: 340px;
+}
+
+.css-ak-wak-wakwg {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   font-size: 20px;
+}
